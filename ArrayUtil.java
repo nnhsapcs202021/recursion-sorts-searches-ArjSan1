@@ -1,3 +1,6 @@
+import java.lang.StringBuilder;
+import java.util.Random;
+
 /**
    This class contains utility methods for array manipulation.
 */  
@@ -33,5 +36,20 @@ public class ArrayUtil
       a[i] = a[j];
       a[j] = temp;
    }
+   
+   
+   
+   public static String[] randomStringArray(int length, int numChars)
+   {
+    String upperAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    String lowerAlphabet = "abcdefghijklmnopqrstuvwxyz";
+    String numbers = "0123456789";
+    String alphaNumeric = upperAlphabet + lowerAlphabet + numbers;
+    StringBuilder sb = new StringBuilder();
+    return null;
+    
+    }
+   
+   
 }
       
